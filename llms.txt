@@ -1,0 +1,34 @@
+# GLM-5.1 Lightweight Installer
+
+> A zero-setup deployment tool for the GLM-5.1 (744B parameter) open-source language model on Windows devices.
+
+## Project Overview
+This repository provides a 1-click installation solution for GLM-5.1, Z.ai's flagship AI model optimized for autonomous programming, agentic engineering, and algorithmic optimization. It bypasses the need for complex Python environments or enterprise-grade local server clusters by offering two distinct deployment methods: a Cloud-Hybrid API client and a Local Quantized GGUF engine.
+
+## Core Features
+- Long-Term Autonomy: Executes complex, multi-step tasks (planning, coding, testing) for up to 8 hours autonomously.
+- 200K Context Window: Supports ingestion of entire repositories via NL2Repo workflows.
+- Auto-Debugging Loop: Built-in self-reflection mechanism to rollback and fix failing tests.
+- Tool Usage: Natively integrates with developer tools and executes terminal commands (compatible with Claude Code/OpenClaw).
+- Inference Engine: Powered by a custom highly-optimized `llama.cpp` build supporting GGUF, NVIDIA CUDA, AMD ROCm, and Apple Metal.
+
+## Distribution & System Requirements
+
+The project distributes two separate `.exe` installers based on hardware capabilities:
+
+### 1. Cloud-Hybrid Release (`GLM-5.1-Cloud-Installer.exe`)
+- Architecture: Local UI with remote inference via built-in API.
+- Model Version: Full GLM-5.1 (744B parameters, 44B active MoE).
+- Hardware Required: Modern mid-to-high-end PC.
+- Network Required: Stable high-speed internet connection.
+- Constraints: Free to use, governed by dynamic hourly rate limits (Zero-Data-Retention policy applied).
+
+### 2. Local Quantized Release (`GLM-5.1-Local-Installer.exe`)
+- Architecture: 100% offline local inference using quantized/distilled GGUF model files.
+- Hardware Required (RAM): 16 GB to 32 GB of system RAM.
+- Hardware Required (GPU): High-end or upper-mid-range discrete graphics card (e.g., NVIDIA RTX 3080/4070 or AMD RX 6800/7800+) with substantial VRAM is strictly mandatory. Unsuitable for iGPUs.
+- Network Required: None (Offline capable).
+
+## License Information
+- Installer software: MIT License.
+- GLM-5.1 model architecture and weights: Z.ai Open License (MIT-compatible).
