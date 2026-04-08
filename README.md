@@ -48,40 +48,18 @@ At the core of our local execution is a custom build of **`llama.cpp`**. This gu
 
 -----
 
-## 🚀 Two Modes of Operation: Choose Your Path
-
-During installation, you can choose one of two operation modes. You can always switch between them in the application settings.
-
-### Option 1: Cloud-Hybrid (Full 744B Version)
-
-*Ultimate power for complex agentic tasks without extreme load on your PC.*
-
-  * **How it works:** The UI runs locally, but all heavy computations (inference) take place on our servers via a built-in API. You interact with the full version of the GLM-5.1 model (744 billion parameters, of which 44B are active per token).
-  * **Requirements:** A modern mid-to-high-end PC, a stable high-speed internet connection.
-  * **Conditions:** Absolutely free. To protect our servers from overloads, dynamic rate limits apply to the number of requests per hour.
-
-### Option 2: Local Quantized (Compressed Offline Version)
-
-*Complete privacy, zero ping, and independence from the internet.*
-
-  * **How it works:** We use an extremely compressed (quantized) and partially distilled version of GLM-5.1 in GGUF format. The model is processed locally by the `llama.cpp` engine with a strong emphasis on GPU acceleration.
-  * **Requirements:** 16 to 32 GB of system RAM. A high-end or upper-mid-range discrete graphics card (e.g., NVIDIA RTX 3080/4070 or AMD RX 6800/7800 and above) with sufficient VRAM is **strictly mandatory**.
-  * **Conditions:** Works without the internet, with no limits, and all your data physically never leaves your workstation.
-
------
-
 ## 🚀 Two Modes of Operation: Choose Your Installer
 
 We provide two separate installers tailored to your specific hardware and privacy needs. You can choose which version to download from our repository.
 
-### Option 1: [Cloud-Hybrid Installer](../../releases)
+### Option 1: [Cloud-Hybrid Installer](../../releases) (Full 744B Version)
 *Ultimate power for complex agentic tasks without extreme load on your PC.*
 
 * **How it works:** The UI runs locally, but all heavy computations (inference) take place on our servers via a built-in API. You interact with the full version of the GLM-5.1 model (744 billion parameters).
 * **Requirements:** A modern mid-to-high-end PC, a stable high-speed internet connection.
 * **Conditions:** Absolutely free. To protect our servers from overloads, dynamic rate limits apply to the number of requests per hour.
 
-### Option 2: [Local Quantized Installer](../../releases)
+### Option 2: [Local Quantized Installer](../../releases) (Compressed Offline Version)
 *Complete privacy, zero ping, and independence from the internet.*
 
 * **How it works:** We use an extremely compressed (quantized) and partially distilled version of GLM-5.1 in GGUF format. The model is processed entirely on your machine using the `llama.cpp` engine. 
