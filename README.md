@@ -72,14 +72,14 @@ During installation, you can choose one of two operation modes. You can always s
 
 We provide two separate installers tailored to your specific hardware and privacy needs. You can choose which version to download from our repository.
 
-### Option 1: Cloud-Hybrid Installer (`GLM-5.1-Cloud-Installer.exe`)
+### Option 1: [Cloud-Hybrid Installer](../../releases)
 *Ultimate power for complex agentic tasks without extreme load on your PC.*
 
 * **How it works:** The UI runs locally, but all heavy computations (inference) take place on our servers via a built-in API. You interact with the full version of the GLM-5.1 model (744 billion parameters).
 * **Requirements:** A modern mid-to-high-end PC, a stable high-speed internet connection.
 * **Conditions:** Absolutely free. To protect our servers from overloads, dynamic rate limits apply to the number of requests per hour.
 
-### Option 2: Local Quantized Installer (`GLM-5.1-Local-Installer.exe`)
+### Option 2: [Local Quantized Installer](../../releases)
 *Complete privacy, zero ping, and independence from the internet.*
 
 * **How it works:** We use an extremely compressed (quantized) and partially distilled version of GLM-5.1 in GGUF format. The model is processed entirely on your machine using the `llama.cpp` engine. 
