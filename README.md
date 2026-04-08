@@ -1,7 +1,9 @@
 # GLM-5.1 Lightweight Installer
 
 <div align="center">
-<img src=resources/logo.svg width="15%"/>
+  <a href="../../releases/latest">
+    <img width="15%" alt="GLM-5.1 Lightweight Installer." src="resources/logo.svg" />
+  </a>
 </div>
 
 Welcome to the **GLM-5.1 Lightweight Installer** repository — a universal tool for running one of the most powerful open-source language models in the world right on your device, in a single click.
